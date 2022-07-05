@@ -1,16 +1,56 @@
 /*Header*/
-.header{
+header{
     width: 100%;
-    height: 200px;
-    background-color: blue;
-    .header__name__logo{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #364c96 35%, white 49%, #ff8496 83%);
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    background-size: 500% 500%;
+    .header__logo{
         width: auto;
         height: auto;
-        background-color: blue;
     }
-        .header__navbar{
+    .header__container__name__navbar{
+        margin-left: 5px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        .header__name{
             width: 100%;
             height: auto;
-            background-color: blue;
+            margin-top: 10px;
+            font-size: large;
+            font-size: 50px;
+            color: #ffd17b;
+        }
+        nav{
+            font-size: large;
+            background: linear-gradient(90deg, #364c96 35%, white 49%, #ff8496 83%);
+            animation-name: animacion;
+            animation-iteration-count: infinite;
+            animation-duration: 12s;
+            animation-delay: 0s;
+            background-size: 500% 500%;
+                .form-control{
+                    color: #364c96;
+                }
+                    &:hover{
+                        color: #ff8496;
+                    }
+                .btn-outline-success{
+                    border: solid 1px #364c96;
+                    background-color: #f8faff;
+                    &:hover{
+                        background-color: #ff8496;
+                        border: solid 1px white;
+                    }
+                }
         }
 }
