@@ -1,0 +1,16 @@
+/*Header*/
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    .header__name__logo{
+        width: auto;
+        height: auto;
+        background-color: blue;
+    }
+        .header__navbar{
+            width: 100%;
+            height: auto;
+            background-color: blue;
+        }
+}
