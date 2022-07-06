@@ -1,0 +1,30 @@
+.container__form{
+    padding: 20px;
+    .submit{
+        color: white;
+        background-color: rgb(133, 22, 64);
+    }
+    .submit:hover{
+        color: black;
+        background-color: #ff8496;
+    }
+    fieldset{
+        padding: 5px;
+        margin: 5px;
+    }
+    input{
+        background-color: #f8faff;
+    }
+    iframe{
+        padding: 10px;
+        width: 100%;
+    }
+    iframe:hover{
+        border: 1.5px solid rgb(235, 223, 223);
+    }
+}
+.mapa{
+    width: 1200PX;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}

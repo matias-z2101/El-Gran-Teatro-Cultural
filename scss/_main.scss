@@ -1,0 +1,117 @@
+main{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd17b;
+    .main__h1{
+        font-size: 40px;
+        color: #364c96;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration:overline;
+    }
+    .main__carousel{
+        width: 600px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 500px;
+        &:hover{
+            border: solid 1px #ff8496;
+        }
+    }
+    .main__grid{
+        margin-top: 100px;
+        padding: 100px;
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "img1 img1 img2 img2 img3 img3 publicidad publicidad"
+        "img4 img4 img5 img5 img6 img6 publicidad publicidad"
+        "img7 img7 img8 img8 img9 img9 publicidad publicidad"
+        "proximamente proximamente proximamente proximamente proximamente proximamente publicidad publicidad";
+    }
+    .img__grid{
+        width: auto;
+        height: auto;
+    }
+    .img1 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        width: auto;
+        height: auto;
+        grid-area: img1; }
+    .img1:hover {
+        border: solid 2px #b95d5d; }
+    .img2 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img2; }
+    .img2:hover {
+        border: solid 2px #b95d5d; }
+    .img3 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img3; }
+    .img3:hover {
+        border: solid 2px #b95d5d; }
+    .img4 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img4; }
+    .img4:hover {
+        border: solid 2px #b95d5d; }
+    .img5 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img5; }
+    .img5:hover {
+        border: solid 2px #b95d5d; }
+    .img6 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img6; }
+    .img6:hover {
+        border: solid 2px #b95d5d; }
+    .img7 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img7; }
+    .img7:hover {
+        border: solid 2px #b95d5d; }
+    .img8 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img8; }
+    .img8:hover {
+        border: solid 2px #b95d5d; }
+    .img9 {
+        display: flex;
+        justify-content: center;
+        background-color: #ead591;
+        grid-area: img9; }
+    .img9:hover {
+        border: solid 2px #b95d5d; }
+    .publicidad {
+        background-color: darkorange;
+        grid-area: publicidad; }
+    .proximamente {
+        display: flex;
+        flex-direction: row;
+        background-color: darkorange;
+        grid-area: proximamente; }
+}

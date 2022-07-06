@@ -1,0 +1,43 @@
+/*footer*/
+footer{
+    margin-left: 95px;
+    width: 75%;
+    height: 50px;
+    gap: 10px;
+    border-top: solid 2px #ff8496;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffd17b;
+    .informacion{
+        width: auto;
+        height: auto;
+        font-size: large;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .redes{
+        width: auto;
+        display: flex;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+        .instagram {
+            width: auto;
+            height: auto;
+            transform: scale(0.2); }
+        .instagram:hover {
+            border: solid 2px #b31717; }
+        .facebook {
+            width: auto;
+            height: auto;
+            transform: scale(0.2); }
+        .facebook:hover {
+            border: solid 2px #0315b6; }
+        .whatsapp {
+            width: auto;
+            height: auto;
+            transform: scale(0.2); }
+        .whatsapp:hover {
+            border: solid 2px #009c0d; }
+}

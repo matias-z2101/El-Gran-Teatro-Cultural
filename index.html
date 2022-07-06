@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="teatro, recital">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
     <header>
         <div class="header__logo">
             <a href="index.html"><img src="./images/icono.png" alt="Logo"></a>
@@ -21,16 +22,16 @@
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Nosotros</a>
+                                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Calendario</a>
+                                    <a class="nav-link" href="./pages/galeria.html">Galeria</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tickets</a>
+                                    <a class="nav-link dropdown-toggle" href="./pages/tickets.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tickets</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li><a class="dropdown-item" href="#">Soda Stereo</a></li>
                                         <li><a class="dropdown-item" href="#">The Beatles</a></li>
@@ -42,7 +43,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
@@ -54,6 +55,84 @@
                 </nav>
         </div>
     </header>
+    <main>
+        <h1 class="main__h1">Entradas Disponibles</h1>
+        <div class="main__carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/soda stereo carrousel.jfif" class="d-block w-100" alt="Soda Stereo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/The Black Keys.jpg" class="d-block w-100" alt="The Black Keys">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Zaz__carousel.jpg" class="d-block w-100" alt="Zaz">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="main__grid">
+            <div class="img1"><img class="img__grid" src="./images/The Black Keys.jpg" alt="The Black Keys"></div>
+            <div class="img2"><img class="img__grid" src="./images/soda stereo carrousel.jfif" alt="Soda Stereo"></div>
+            <div class="img3"><img class="img__grid" src="./images/artic monkeys.jpg" alt="Artic Monkeys"></div>
+            <div class="img4"><img class="img__grid" src="./images/soda stereo carrousel.jfif" alt="Soda Stereo"></div>
+            <div class="img5"><img class="img__grid" src="./images/artic monkeys.jpg" alt="Artic Monkeys"></div>
+            <div class="img6"><img class="img__grid" src="./images/soda stereo carrousel.jfif" alt="Soda Stereo"></div>
+            <div class="img7"><img class="img__grid" src="./images/artic monkeys.jpg" alt="Artic Monkeys"></div>
+            <div class="img8"><img class="img__grid" src="./images/The Black Keys.jpg" alt="The Black Keys"></div>
+            <div class="img9"><img class="img__grid" src="./images/The Black Keys.jpg" alt="The Black Keys"></div>
+            <div class="publicidad">
+                <strong>Publicidad</strong>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ipsam aliquam voluptatum dolore quae iste neque deleniti nostrum, numquam doloribus blanditiis laudantium molestiae adipisci rerum hic impedit eos repudiandae id?
+                Ad alias quibusdam ex, ut obcaecati tempora aspernatur aliquam accusantium! Nesciunt aut quo ab a repellat dolorum soluta omnis veritatis reprehenderit ducimus distinctio corporis, officia animi fuga earum nemo hic.
+                Accusamus pariatur nobis molestiae at provident impedit maiores, accusantium consequuntur debitis voluptates similique sequi assumenda consequatur nemo ea aperiam voluptate magnam est? Vel illum non ad atque necessitatibus aut rem?
+                Minus deleniti asperiores voluptas, perferendis aperiam, quos, culpa blanditiis voluptatum mollitia magni iusto totam amet excepturi laudantium? In quae quaerat odit itaque tempore a voluptatem nostrum tenetur ducimus fuga. Molestiae!
+                Dolor ullam fugit consequatur vero itaque provident modi dolore rerum quo incidunt, temporibus, odit pariatur ad, voluptas doloribus rem natus quod eveniet est soluta repellendus. Nobis quam similique est doloremque!
+                Asperiores ad non earum aliquid culpa repellat suscipit sapiente itaque dignissimos rem perspiciatis totam minus officia hic dicta velit, magni nam eos fugit. Modi, consequatur enim autem maiores illo doloribus.
+                Et quod distinctio, incidunt ullam sint dolorem eum, qui, exercitationem fuga illum recusandae nostrum inventore. Quae saepe quam expedita alias provident maxime consequatur beatae a. Doloribus nostrum beatae ullam illo.
+                Rem hic non modi architecto excepturi, eum dolor delectus perspiciatis rerum iste dolores assumenda omnis dolorum optio animi beatae pariatur fuga similique. Ex sit aspernatur perspiciatis illum quas illo quidem?
+                Architecto consectetur voluptas et asperiores perspiciatis fuga culpa distinctio! Nulla iusto quaerat suscipit libero inventore vel dolores maiores omnis nisi incidunt illum enim, eius nostrum adipisci cum odio velit est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores libero reiciendis perspiciatis iusto deleniti cumque blanditiis voluptas quo ipsam, aliquid veniam aspernatur sint harum temporibus quam, voluptate aperiam voluptatum?
+                Quis iste necessitatibus architecto, cumque possimus culpa, reprehenderit eius atque maxime expedita molestias ab sunt qui, quia consectetur natus nostrum non cum provident. Nesciunt aliquam reprehenderit dolorem! Perspiciatis, eius eveniet.
+                Alias eligendi earum modi aperiam veritatis eveniet deserunt inventore dolore praesentium minus. Maiores vitae voluptatibus inventore, ullam sed quasi, debitis temporibus impedit voluptas quos iste autem asperiores voluptate rerum. Exercitationem!
+                Deleniti molestiae veritatis sint! Maiores repellendus aliquam voluptatum nisi optio eius hic fugit, quis ducimus aspernatur doloribus in veniam eveniet provident dolorem enim! Voluptatem corporis quisquam, fuga maxime odit minima!
+                Reprehenderit beatae recusandae neque ea autem. Laborum dicta itaque temporibus eveniet inventore, pariatur quibusdam consectetur aut quod doloribus ea in error delectus deleniti eum voluptatum dolorum. Nihil optio harum in!
+                Asperiores, inventore et! Nemo temporibus numquam exercitationem aspernatur assumenda deleniti sunt fuga animi, architecto ea ipsum explicabo culpa incidunt iste adipisci facilis dolores hic ad eius quo impedit beatae earum.
+                Dolor architecto optio ad recusandae. Quam, quod quos illo molestiae libero nobis asperiores sed voluptatem neque doloribus, a adipisci exercitationem quae repellat molestias sunt! Cum possimus molestias maxime odio dolores.
+                Commodi odit inventore culpa, nulla rerum voluptate accusantium dicta deleniti beatae, sint, officia molestiae dignissimos expedita itaque quis. Neque corporis harum provident dolores sit nemo error quod consequatur suscipit repellendus?
+                Sed asperiores expedita quae tempore accusamus. Nemo dolorum quis rerum corrupti fuga? Rerum tenetur, et harum blanditiis molestias excepturi aut recusandae quia dolorem soluta velit delectus, accusantium architecto quas fugit.</p>
+            </div>
+            <div class="proximamente">
+                <strong>Segmento Proximamente</strong>
+                <img src="./images/telon.jpg" alt="Proximamente">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="informacion">
+            <p>Caba</p>
+            <p>11-11111-3333</p>
+            <p>granteatrocultural@teatro.com.ar</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com" rel="noopener" target="_blank"><img class="instagram" src="./images/instagramLogo3.png" alt="Instagram Logo"></a>
+            <a href="https://www.facebook.com" rel="noopener" target="_blank"><img class="facebook" src="./images/facebookLogo.jpg" alt="Facebook Logo"></a>
+            <a href="https://web.whatsapp.com/" rel="noopener" target="_blank"><img class="whatsapp" src="./images/whatsappLogo.png" alt="Whatsapp Logo"></a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

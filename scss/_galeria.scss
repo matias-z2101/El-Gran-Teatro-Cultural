@@ -1,0 +1,19 @@
+/*Galeria*/
+.multimedia{
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    iframe{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px;
+        &:hover{
+            border-left: 4px solid #ff8496;
+            border-right: 4px solid #364c96;
+        }
+    }
+}

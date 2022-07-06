@@ -1,0 +1,18 @@
+/*Nosotros*/
+.nosotros__imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    img{
+        border-top: solid 4px #364c96;
+        border-bottom: solid 4px #364c96;
+    }
+}
+.nosotros__texto{
+    padding: 35px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
