@@ -28,7 +28,7 @@ main{
         width: 100%;
         height: auto;
         display: grid;
-        gap: 20px;
+        gap: 15px 15px;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
@@ -108,10 +108,14 @@ main{
         border: solid 2px #b95d5d; }
     .publicidad {
         background-color: darkorange;
+        background-image: url(../images/poker.jpg);
+        background-repeat: no-repeat;
         grid-area: publicidad; }
     .proximamente {
         display: flex;
         flex-direction: row;
+        background-image: url(../images/telon.jpg);
+        background-repeat:  no-repeat;
         background-color: darkorange;
         grid-area: proximamente; }
 }

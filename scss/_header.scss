@@ -14,6 +14,34 @@ header{
         width: auto;
         height: auto;
     }
+    #header__red__social{
+        width: 100%;
+        margin-right: 10px;
+        padding: 10px;
+        gap: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        .header__red__social__instagram{
+            a{
+                color: red;
+            }
+        }
+    }
+    .header__button{
+        width: 60px;
+        height: auto;
+        color: #364c96;
+        display: flex;
+        justify-content: center;
+        margin-left: 1450px;
+        &:hover{
+            color: black;
+            background-color: #ff8496;
+            border: 1px solid #ffd17b;
+        }
+    }
     .header__container__name__navbar{
         margin-left: 5px;
         width: 100%;

@@ -79,6 +79,28 @@ header {
   header .header__logo {
     width: auto;
     height: auto; }
+  header #header__red__social {
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    gap: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    header #header__red__social .header__red__social__instagram a {
+      color: red; }
+  header .header__button {
+    width: 60px;
+    height: auto;
+    color: #364c96;
+    display: flex;
+    justify-content: center;
+    margin-left: 1450px; }
+    header .header__button:hover {
+      color: black;
+      background-color: #ff8496;
+      border: 1px solid #ffd17b; }
   header .header__container__name__navbar {
     margin-left: 5px;
     width: 100%;
@@ -149,7 +171,7 @@ main {
     width: 100%;
     height: auto;
     display: grid;
-    gap: 20px;
+    gap: 15px 15px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "img1 img1 img2 img2 img3 img3 publicidad publicidad" "img4 img4 img5 img5 img6 img6 publicidad publicidad" "img7 img7 img8 img8 img9 img9 publicidad publicidad" "proximamente proximamente proximamente proximamente proximamente proximamente publicidad publicidad"; }
@@ -223,10 +245,14 @@ main {
     border: solid 2px #b95d5d; }
   main .publicidad {
     background-color: darkorange;
+    background-image: url(../images/poker.jpg);
+    background-repeat: no-repeat;
     grid-area: publicidad; }
   main .proximamente {
     display: flex;
     flex-direction: row;
+    background-image: url(../images/telon.jpg);
+    background-repeat: no-repeat;
     background-color: darkorange;
     grid-area: proximamente; }
 
