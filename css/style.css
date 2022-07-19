@@ -1,4 +1,28 @@
+/*Mi Cuenta*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+#main__mi__cuenta {
+  width: 100%;
+  height: 500px; }
+  #main__mi__cuenta form {
+    width: 100%;
+    padding: 50px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #main__mi__cuenta form .main__mi__cuenta__input {
+      width: 300px;
+      height: 25px; }
+      #main__mi__cuenta form .main__mi__cuenta__input:hover {
+        color: white;
+        border: 1px solid #ff8496; }
+    #main__mi__cuenta form .submit {
+      color: white;
+      background-color: #851640; }
+    #main__mi__cuenta form .submit:hover {
+      color: black;
+      background-color: #ff8496; }
+
 .container__form {
   padding: 20px; }
   .container__form .submit {
@@ -29,7 +53,7 @@ footer {
   width: 75%;
   height: 50px;
   gap: 10px;
-  border-top: solid 2px #ff8496;
+  border-top: solid 2px #1d1c1c;
   display: flex;
   flex-direction: row;
   background-color: #ffd17b; }
@@ -92,15 +116,18 @@ header {
       color: red; }
   header .header__button {
     width: 60px;
-    height: auto;
+    height: 20px;
+    font-size: 10px;
+    border: 0.5px solid;
+    border-radius: 3px;
     color: #364c96;
     display: flex;
     justify-content: center;
-    margin-left: 1450px; }
+    margin-left: 1462px; }
     header .header__button:hover {
-      color: black;
+      color: white;
       background-color: #ff8496;
-      border: 1px solid #ffd17b; }
+      border: 1px solid white; }
   header .header__container__name__navbar {
     margin-left: 5px;
     width: 100%;
@@ -144,6 +171,7 @@ header {
   100% {
     background-position: 5% 0%; } }
 
+/*Main*/
 main {
   margin-top: 50px;
   width: 100%;

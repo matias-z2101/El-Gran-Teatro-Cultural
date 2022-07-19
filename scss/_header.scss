@@ -31,15 +31,18 @@ header{
     }
     .header__button{
         width: 60px;
-        height: auto;
+        height: 20px;
+        font-size: 10px;
+        border: 0.5px solid;
+        border-radius: 3px;
         color: #364c96;
         display: flex;
         justify-content: center;
-        margin-left: 1450px;
+        margin-left: 1462px;
         &:hover{
-            color: black;
+            color: white;
             background-color: #ff8496;
-            border: 1px solid #ffd17b;
+            border: 1px solid white;
         }
     }
     .header__container__name__navbar{
