@@ -42,6 +42,23 @@ main{
         width: auto;
         height: auto;
     }
+    h4{
+        text-decoration: underline;
+    }
+    .buy{
+        margin-left: 45%;
+        margin-top: 20px;
+        opacity: none;
+        border-radius: 3px;
+        border: 0.5px solid;
+        color: #707070;
+        &:hover{
+            color: white;
+            transition: 1s;
+            background-color: #ff8496;
+            border: 1px solid white;
+        }
+    }
     .img1 {
         display: flex;
         justify-content: center;
@@ -50,63 +67,90 @@ main{
         height: auto;
         grid-area: img1; }
     .img1:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img2 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img2; }
     .img2:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img3 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img3; }
     .img3:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img4 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img4; }
     .img4:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img5 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img5; }
     .img5:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img6 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img6; }
     .img6:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img7 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img7; }
     .img7:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img8 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img8; }
     .img8:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .img9 {
         display: flex;
         justify-content: center;
         background-color: #ead591;
         grid-area: img9; }
     .img9:hover {
-        border: solid 2px #b95d5d; }
+        cursor: pointer;
+        opacity: 0.3;
+        transition: 3s;
+        border: solid 1px black; }
     .publicidad {
         background-color: darkorange;
         background-image: url(../images/poker.jpg);
