@@ -1,14 +1,17 @@
 /*Main*/
 main{
-    margin-top: 50px;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #ffd17b;
+    /*background-color: #ffd17b;*/
+    background-color: #050031;
+    background-image: url(../images/background_universo.webp);
+    background-repeat: no-repeat;
     .main__h1{
+        margin-top: 20px;
         font-size: 40px;
-        color: #364c96;
+        color: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -17,10 +20,12 @@ main{
     .main__carousel{
         width: 600px;
         height: auto;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 500px;
+        background-image: url(../images/background_universo.webp);
         &:hover{
             border: solid 1px #ff8496;
+            box-shadow: 20px 20px 60px rgb(38, 34, 80);
         }
     }
     .main__grid{
@@ -36,7 +41,7 @@ main{
         "img1 img1 img2 img2 img3 img3 publicidad publicidad"
         "img4 img4 img5 img5 img6 img6 publicidad publicidad"
         "img7 img7 img8 img8 img9 img9 publicidad publicidad"
-        "proximamente proximamente proximamente proximamente proximamente proximamente publicidad publicidad";
+        "container__banner container__banner container__banner container__banner container__banner container__banner publicidad publicidad";
     }
     .img__grid{
         width: auto;
@@ -48,13 +53,14 @@ main{
     .buy{
         margin-left: 45%;
         margin-top: 20px;
-        opacity: none;
         border-radius: 3px;
         border: 0.5px solid;
-        color: #707070;
+        color: black;
+        background-color: whitesmoke;
         &:hover{
-            color: white;
+            opacity: 1;
             transition: 1s;
+            color: white;
             background-color: #ff8496;
             border: 1px solid white;
         }
@@ -62,7 +68,8 @@ main{
     .img1 {
         display: flex;
         justify-content: center;
-        background-color: #ead591;
+        color: white;
+        background-color: #364c96;
         width: auto;
         height: auto;
         grid-area: img1; }
@@ -70,97 +77,101 @@ main{
         cursor: pointer;
         opacity: 0.3;
         transition: 3s;
-        border: solid 1px black; }
+        transform: translatex(5px);
+        border: solid 1px black;}
     .img2 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;        
         grid-area: img2; }
     .img2:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img3 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img3; }
     .img3:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img4 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img4; }
     .img4:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img5 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img5; }
     .img5:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img6 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img6; }
     .img6:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img7 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img7; }
     .img7:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img8 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img8; }
     .img8:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .img9 {
-        display: flex;
-        justify-content: center;
-        background-color: #ead591;
+        @extend .img1;
         grid-area: img9; }
     .img9:hover {
-        cursor: pointer;
-        opacity: 0.3;
-        transition: 3s;
-        border: solid 1px black; }
+        @extend.img1:hover; }
     .publicidad {
-        background-color: darkorange;
-        background-image: url(../images/poker.jpg);
-        background-repeat: no-repeat;
-        grid-area: publicidad; }
-    .proximamente {
+        grid-area: publicidad;
+        :nth-child(1){
+            width: 100%;
+            height: 25%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url(../images/gif__nike.gif);
+            
+        }
+        .publicidad__dos/*:nth-child(2)*/{
+            @extend :nth-child(1);
+            background-image: url(../images/gif-coca-music.gif);
+        }
+        .publicidad__tres/*:nth-child(3)*/{
+            @extend :nth-child(1);
+            background-image: url(../images/gif__master__card.webp);
+        }
+        .publicidad__cuatro/*:nth-child(4)*/{
+            @extend :nth-child(1);
+            background-image: url(../images/gif-spotify.webp);
+        }
+    }
+    .container__banner {
+        margin-top: 40px;
         display: flex;
         flex-direction: row;
-        background-image: url(../images/telon.jpg);
-        background-repeat:  no-repeat;
-        background-color: darkorange;
-        grid-area: proximamente; }
+        grid-area: container__banner; }
+        .container__banner__proximos__recitales{
+            width: 95%;
+            height: auto;
+            border-radius: 10px;
+            background-image: url(../images/dj.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.3;
+            transition: 2.5s;
+            p{
+                font-size: 20px;
+                color: white;
+                margin-top: 5%;
+                margin-left: 10%;
+                border-top: 2px solid white;
+            }
+            &:hover{
+                cursor: pointer;
+                opacity: 1;
+                transform: skewX(-5deg);
+                p{
+                color: orangered;
+                border-top: 2px solid orangered;
+                }
+            }
+        }
 }

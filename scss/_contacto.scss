@@ -1,11 +1,16 @@
 .container__form{
+    background-image: url(../images/background_universo.webp);
     padding: 20px;
     .submit{
+        width: 10rem;
+        border: 0.5px;
+        border-radius: 3px;
         color: white;
         background-color: rgb(133, 22, 64);
     }
     .submit:hover{
-        color: black;
+        transition: 1s;
+        color: white;
         background-color: #ff8496;
     }
     fieldset{
@@ -23,8 +28,13 @@
         border: 1.5px solid rgb(235, 223, 223);
     }
 }
-.mapa{
-    width: 1200PX;
-    margin-left: 200px;
-    margin-bottom: 40px;
+.container__mapa{
+    background-image: url(../images/background_universo.webp);
+    .mapa{
+        width: 1200PX;
+        height: 400px;
+        margin-left: 200px;
+        margin-bottom: 35px;
+    }
 }
+    

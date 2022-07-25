@@ -13,11 +13,11 @@
 <body class="body">
     <header>
         <div class="header__logo">
-            <a href="index.html"><img src="../images/icono.png" alt="Logo"></a>
+            <a href="../index.html"><img src="../images/icono.png" alt="Logo"></a>
         </div>
         <div class="header__container__name__navbar">
             <p class="header__name">Gran Teatro Cultural</p>
-            <a href="./pages/mi_cuenta.html"><button class="header__button">Mi Cuenta</button></a>
+            <a href="../pages/mi_cuenta.html"><button class="header__button">Mi Cuenta</button></a>
                 <nav class="navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" id="navbarScroll">
@@ -34,13 +34,15 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="../pages/tickets.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tickets</a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                        <li><a class="dropdown-item" href="#">Soda Stereo</a></li>
-                                        <li><a class="dropdown-item" href="#">The Beatles</a></li>
-                                        <li><a class="dropdown-item" href="#">The Black Keys</a></li>
-                                        <li><a class="dropdown-item" href="#">Artic Monkeys</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Ticket's <p class="access">acceder</p></a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Soda Stereo</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">The Black Keys</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Dua Lipa</a></li>
                                         <li><hr class="dropdown-divider">Proximamente</li>
-                                        <li><a class="dropdown-item" href="#">Dua Lipa</a></li>
-                                        <li><a class="dropdown-item" href="#">Queen</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">The Beatles</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Guns And Roses</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Artic Monkeys</a></li>
+                                        <li><a class="dropdown-item" href="../pages/tickets.html">Queen</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -56,18 +58,59 @@
                 </nav>
         </div>
     </header>
-    <footer>
-        <div class="informacion">
-            <p>Caba</p>
-            <p>11-11111-3333</p>
-            <p>granteatrocultural@teatro.com.ar</p>
+    <div class="container__tickets">
+        <div class="container__tickets__form">
+            <select class="container__tickets__selecione__artista" aria-label="state">
+                <option selected>Seleccione Artista</option>
+                <option value="1">Soda Stereo</option>
+                <option value="2">The Black Keys</option>
+                <option value="3">Dua Lipa</option>
+            </select>
+            <label for="start">Seleccione Fecha</label>
+            <input type="date" id="start" name="trip-start" value="2022-05-01" min="2022-08-05" max="2022-08-07">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault1">Plate Baja $''''</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault2">Platea Alta $''''</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault3">Preferencial $''''</label>
+                <select class="container__tickets__selecione__artista" aria-label="state">
+                    <option selected>Seleccione Cantidad</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                    <option value="3">3</option>
+                    <option value="1">Otra</option>
+            </select>
+            </div class="container__button">
+                <button type="button" class="btn btn-dark">Efectivo</button>
+                <button type="button" class="btn btn-dark">Tarjeta</button>
+                <button class="ticket__button">Continuar</button>
+            </div>
+            <div id="container__gif"></div>
         </div>
-        <div class="redes">
+    </div>
+    <footer>
+        <div class="footer__navbar">
+            <a href="../index.html">Home</a>
+            <a href="../pages/nosotros.html">Nosotros</a>
+            <a href="../pages/galeria.html">Galeria</a>
+            <a href="../pages/tickets.html">Ticket's</a>
+            <a href="../pages/mi_cuenta.html">Mi Cuenta</a>
+            <a href="../pages/contacto.html">Contacto</a>
+        </div>
+        <div class="footer__redes">
             <a href="https://www.instagram.com" rel="noopener" target="_blank"><img class="instagram" src="../images/instagramLogo3.png" alt="Instagram Logo"></a>
             <a href="https://www.facebook.com" rel="noopener" target="_blank"><img class="facebook" src="../images/facebookLogo.jpg" alt="Facebook Logo"></a>
             <a href="https://web.whatsapp.com/" rel="noopener" target="_blank"><img class="whatsapp" src="../images/whatsappLogo.png" alt="Whatsapp Logo"></a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>

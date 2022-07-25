@@ -4,7 +4,7 @@ header{
     height: auto;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(90deg, #364c96 35%, white 49%, #ff8496 83%);
+    background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 12s;
@@ -40,6 +40,7 @@ header{
         justify-content: center;
         margin-left: 1462px;
         &:hover{
+            transition: 1s;
             color: white;
             background-color: #ff8496;
             border: 1px solid white;
@@ -59,11 +60,11 @@ header{
             margin-top: 10px;
             font-size: large;
             font-size: 50px;
-            color: #ffd17b;
+            color: black;
         }
         nav{
             font-size: large;
-            background: linear-gradient(90deg, #364c96 35%, white 49%, #ff8496 83%);
+            background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
             animation-name: animacion;
             animation-iteration-count: infinite;
             animation-duration: 12s;
@@ -81,6 +82,22 @@ header{
                     &:hover{
                         background-color: #ff8496;
                         border: solid 1px white;
+                    }
+                }
+                .access{
+                    color: green;
+                    font-size: smaller;
+                    border-bottom: 0.5px solid green;
+                }
+                ul .dropdown-menu{
+                    :nth-child(1){
+                        display: flex;
+                        gap: 6px;
+                    }
+                    :nth-child(5){
+                        width: 65px;
+                        border-bottom: 0.5px solid black;
+                        margin-left: 10px;
                     }
                 }
         }
