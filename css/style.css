@@ -217,7 +217,6 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
-  /*background-color: #ffd17b;*/
   background-color: #050031;
   background-image: url(../images/background_universo.webp);
   background-repeat: no-repeat; }
@@ -230,7 +229,7 @@ main {
     justify-content: center;
     text-decoration: overline; }
   main .main__carousel {
-    width: 600px;
+    width: 36rem;
     height: auto;
     margin-top: 30px;
     margin-left: 500px;
@@ -479,3 +478,85 @@ h1 {
       opacity: 0.3;
       transition: 1s;
       box-shadow: 20px 20px 200px #4076c9; }
+
+@media (min-width: 400px) and (max-width: 576px) {
+  /*index.html*/
+  body {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    /*tickets.html*/
+    /*nosotros.html*/
+    /*galeria.html*/
+    /*contacto.html*/ }
+    body header {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start; }
+      body header .header__logo {
+        display: none; }
+      body header .header__container__name__navbar p {
+        font-size: 2em; }
+      body header .header__container__name__navbar .header__button {
+        width: auto;
+        height: auto;
+        display: none;
+        justify-content: flex-start; }
+      body header .header__container__name__navbar nav {
+        width: 5em;
+        height: auto;
+        font-size: 1em; }
+      body header .header__container__name__navbar .navbar {
+        width: 100%; }
+    body main {
+      width: 90%;
+      background-image: none; }
+      body main .main__h1 {
+        display: none; }
+      body main .main__carousel {
+        display: none; }
+      body main .main__grid {
+        margin-top: 5px;
+        padding: 1em;
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img8" "img9 img9"; }
+        body main .main__grid :nth-child(1), body main .main__grid .publicidad .publicidad__dos, body main .publicidad .main__grid .publicidad__dos, body main .main__grid .publicidad .publicidad__tres, body main .publicidad .main__grid .publicidad__tres, body main .main__grid .publicidad .publicidad__cuatro, body main .publicidad .main__grid .publicidad__cuatro {
+          width: 100%; }
+          body main .main__grid :nth-child(1) .card-body, body main .main__grid .publicidad .publicidad__dos .card-body, body main .publicidad .main__grid .publicidad__dos .card-body, body main .main__grid .publicidad .publicidad__tres .card-body, body main .publicidad .main__grid .publicidad__tres .card-body, body main .main__grid .publicidad .publicidad__cuatro .card-body, body main .publicidad .main__grid .publicidad__cuatro .card-body {
+            width: 50%; }
+        body main .main__grid .buy {
+          width: 5em; }
+      body main iframe {
+        margin-bottom: 1em; }
+    body .publicidad {
+      display: none; }
+    body .container__banner {
+      display: none; }
+    body footer {
+      width: auto;
+      height: auto;
+      margin-top: 1px;
+      margin-left: 1px;
+      margin-bottom: 10px; }
+      body footer .footer__navbar {
+        font-size: 15px; }
+      body footer .footer__redes {
+        margin-top: 5px; }
+    body .container__tickets .container__tickets__form {
+      width: 95%; }
+      body .container__tickets .container__tickets__form .container__button .ticket__button {
+        margin-left: 4em; }
+      body .container__tickets .container__tickets__form .container__button #container__gif {
+        width: 95%; }
+    body .nosotros__imagen {
+      background-image: none; }
+      body .nosotros__imagen img {
+        width: 60%; }
+    body .container__mapa {
+      display: none; } }

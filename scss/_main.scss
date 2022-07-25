@@ -4,7 +4,6 @@ main{
     height: auto;
     display: flex;
     flex-direction: column;
-    /*background-color: #ffd17b;*/
     background-color: #050031;
     background-image: url(../images/background_universo.webp);
     background-repeat: no-repeat;
@@ -18,7 +17,7 @@ main{
         text-decoration:overline;
     }
     .main__carousel{
-        width: 600px;
+        width: 36rem;
         height: auto;
         margin-top: 30px;
         margin-left: 500px;

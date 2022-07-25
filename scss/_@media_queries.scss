@@ -1,0 +1,125 @@
+@media (min-width: 400px) and (max-width: 576px){
+    /*index.html*/
+    body{
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+        header{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            .header__logo{
+                display: none;
+            }
+            .header__container__name__navbar{
+                p{
+                    font-size: 2em;
+                }
+                .header__button{
+                    width: auto;
+                    height: auto;
+                    display: none;
+                    justify-content: flex-start;
+                }
+                nav{
+                    width: 5em;
+                    height: auto;
+                    font-size: 1em;
+                }
+                .navbar{
+                    width: 100%;
+                }
+            }
+        }
+        main{
+            width: 90%;
+            background-image: none;
+            .main__h1{
+                display: none;
+            }
+            .main__carousel{
+                display: none;
+            }
+            .main__grid{
+                margin-top: 5px;
+                padding: 1em;
+                width: 90%;
+                height: auto;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+                grid-template-areas: 
+                "img1 img2"
+                "img3 img4"
+                "img5 img6"
+                "img7 img8"
+                "img9 img9";
+                :nth-child(1){
+                    width:100%;
+                    .card-body{
+                        width: 50%;
+                    }
+                }
+                .buy{
+                    width: 5em;
+                }
+            }
+            iframe{
+                margin-bottom: 1em;
+            }
+        }
+        .publicidad{
+            display: none;
+        }
+        .container__banner{
+            display: none;
+        }
+        footer{
+            width: auto;
+            height: auto;
+            margin-top: 1px;
+            margin-left: 1px;
+            margin-bottom: 10px;
+            .footer__navbar {
+                font-size: 15px;
+            }
+            .footer__redes{
+                margin-top: 5px;
+            }
+        }
+        /*tickets.html*/
+        .container__tickets{
+            .container__tickets__form{
+                width: 95%;
+                .container__button{
+                    .ticket__button{
+                        margin-left: 4em;
+                    }
+                    #container__gif{
+                        width: 95%;
+                }
+                }
+            }
+        }
+        /*nosotros.html*/
+        .nosotros__imagen{
+            background-image: none;
+            img{
+                width: 60%;
+            }
+        }
+        /*galeria.html*/
+        /*contacto.html*/
+        .container__mapa{
+            display: none;
+        }
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+
+}
+@media (min-width: 769px) and (max-width: 1200px){
+
+}
