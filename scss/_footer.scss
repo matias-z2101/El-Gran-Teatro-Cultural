@@ -1,14 +1,13 @@
-/*footer*/
+/*Footer*/
 footer{
     width: 75%;
     height: 300px;
     margin-top: 50px;
     margin-left: 95px;
     gap: 1px;
-    border-top: solid 1px rgb(255, 255, 255);
+    border-top: solid 1px #f8faff;
     display: flex;
     flex-direction: row;
-    /*background-color: #ffd17b;*/
     background-color: #050031;
     .footer__navbar{
         display: flex;
@@ -20,12 +19,12 @@ footer{
         margin-top: 20px;
         gap: 2px;
         a{
-            color: white;
+            color: #f8faff;
             &:hover{
-                border-bottom: 0.1px solid white;
+                border-bottom: 0.1px solid #f8faff;
             }
             &:visited{
-                color: rgb(107, 19, 70);
+                color: #851640;
             }
         }
     }
@@ -50,11 +49,11 @@ footer{
             margin-left: 160px;
             @extend.instagram; }
         .facebook:hover {
-          }
+        }
         .whatsapp {
             margin-left: 80px;
             position: absolute;
             @extend.instagram; }
         .whatsapp:hover {
-          }
+        }
 }

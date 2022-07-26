@@ -1,3 +1,4 @@
+/*Contacto*/
 .container__form{
     background-image: url(../images/background_universo.webp);
     padding: 20px;
@@ -5,12 +6,12 @@
         width: 10rem;
         border: 0.5px;
         border-radius: 3px;
-        color: white;
-        background-color: rgb(133, 22, 64);
+        color: #f8faff;
+        background-color: #851640;
     }
     .submit:hover{
         transition: 1s;
-        color: white;
+        color: #f8faff;
         background-color: #ff8496;
     }
     fieldset{
@@ -25,7 +26,7 @@
         width: 100%;
     }
     iframe:hover{
-        border: 1.5px solid rgb(235, 223, 223);
+        border: 1.5px solid #f8faff;
     }
 }
 .container__mapa{

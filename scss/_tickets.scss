@@ -1,3 +1,4 @@
+    /*Tickets*/
     .container__tickets{
     width: 100%;
     height: 700px;
@@ -17,7 +18,7 @@
         flex-direction: column;
         justify-content: center;
         border-radius: 30px;
-        background-color: rgb(24, 32, 109);
+        background-color: #364c96;
         .container__tickets__seleccione__artista{
         width: 25%;
         }
@@ -25,14 +26,14 @@
             
         }
         label{
-            color: white;
+            color: #f8faff;
         }
         .form-check{
             font-size: large;
             display: flex;
             justify-content: center;
             margin-top: 20px;
-            color: white;
+            color: #f8faff;
         }
         .ticket__button{
         margin-left: 80%;
@@ -40,11 +41,11 @@
         width: 10rem;
         border: 0.5px;
         border-radius: 3px;
-        color: white;
-        background-color: rgb(133, 22, 64);
+        color: #f8faff;
+        background-color: #851640;
         &:hover{
         transition: 1s;
-        color: white;
+        color: #f8faff;
         background-color: #ff8496;
         }
         }

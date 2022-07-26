@@ -1,3 +1,5 @@
+/*index.scss*/
+/*Carousel*/
 /*Mi Cuenta*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 #main__mi__cuenta {
@@ -16,17 +18,18 @@
       height: 25px;
       border: 0.5px solid #ff8496; }
       #main__mi__cuenta form .main__mi__cuenta__input:hover {
-        color: white;
+        color: #f8faff;
         border: 0.5px solid #ff8496;
         transition: 1s; }
     #main__mi__cuenta form .submit {
-      color: white;
+      color: #f8faff;
       background-color: #851640; }
     #main__mi__cuenta form .submit:hover {
       transition: 2s;
-      color: white;
+      color: #f8faff;
       background-color: #ff8496; }
 
+/*Contacto*/
 .container__form {
   background-image: url(../images/background_universo.webp);
   padding: 20px; }
@@ -34,11 +37,11 @@
     width: 10rem;
     border: 0.5px;
     border-radius: 3px;
-    color: white;
+    color: #f8faff;
     background-color: #851640; }
   .container__form .submit:hover {
     transition: 1s;
-    color: white;
+    color: #f8faff;
     background-color: #ff8496; }
   .container__form fieldset {
     padding: 5px;
@@ -49,7 +52,7 @@
     padding: 10px;
     width: 100%; }
   .container__form iframe:hover {
-    border: 1.5px solid #ebdfdf; }
+    border: 1.5px solid #f8faff; }
 
 .container__mapa {
   background-image: url(../images/background_universo.webp); }
@@ -59,17 +62,16 @@
     margin-left: 200px;
     margin-bottom: 35px; }
 
-/*footer*/
+/*Footer*/
 footer {
   width: 75%;
   height: 300px;
   margin-top: 50px;
   margin-left: 95px;
   gap: 1px;
-  border-top: solid 1px white;
+  border-top: solid 1px #f8faff;
   display: flex;
   flex-direction: row;
-  /*background-color: #ffd17b;*/
   background-color: #050031; }
   footer .footer__navbar {
     display: flex;
@@ -81,11 +83,11 @@ footer {
     margin-top: 20px;
     gap: 2px; }
     footer .footer__navbar a {
-      color: white; }
+      color: #f8faff; }
       footer .footer__navbar a:hover {
-        border-bottom: 0.1px solid white; }
+        border-bottom: 0.1px solid #f8faff; }
       footer .footer__navbar a:visited {
-        color: #6b1346; }
+        color: #851640; }
   footer .footer__redes {
     width: auto;
     display: flex;
@@ -114,7 +116,7 @@ header {
   height: auto;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
+  background: linear-gradient(90deg, #364c96 35%, #e9e6e6 49%, #7d418b 83%);
   animation-name: animacion;
   animation-iteration-count: infinite;
   animation-duration: 12s;
@@ -146,9 +148,9 @@ header {
     margin-left: 1462px; }
     header .header__button:hover {
       transition: 1s;
-      color: white;
+      color: #f8faff;
       background-color: #ff8496;
-      border: 1px solid white; }
+      border: 1px solid #f8faff; }
   header .header__container__name__navbar {
     margin-left: 5px;
     width: 100%;
@@ -165,7 +167,7 @@ header {
     color: black; }
   header nav {
     font-size: large;
-    background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
+    background: linear-gradient(90deg, #364c96 35%, #e9e6e6 49%, #7d418b 83%);
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 12s;
@@ -180,19 +182,20 @@ header {
       background-color: #f8faff; }
       header nav .btn-outline-success:hover {
         background-color: #ff8496;
-        border: solid 1px white; }
+        border: solid 1px #f8faff; }
     header nav .access {
-      color: green;
+      color: #008000;
       font-size: smaller;
-      border-bottom: 0.5px solid green; }
+      border-bottom: 0.5px solid #008000; }
     header nav ul .dropdown-menu :nth-child(1), header nav ul .dropdown-menu main .publicidad .publicidad__dos, main .publicidad header nav ul .dropdown-menu .publicidad__dos, header nav ul .dropdown-menu main .publicidad .publicidad__tres, main .publicidad header nav ul .dropdown-menu .publicidad__tres, header nav ul .dropdown-menu main .publicidad .publicidad__cuatro, main .publicidad header nav ul .dropdown-menu .publicidad__cuatro {
       display: flex;
       gap: 6px; }
     header nav ul .dropdown-menu :nth-child(5) {
       width: 65px;
-      border-bottom: 0.5px solid black;
+      border-bottom: 0.5px solid #070606;
       margin-left: 10px; }
 
+/*@Keyframes*/
 @keyframes animacion {
   0% {
     background-position: 5% 0%; }
@@ -223,16 +226,16 @@ main {
   main .main__h1 {
     margin-top: 20px;
     font-size: 40px;
-    color: white;
+    color: #f8faff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-decoration: overline; }
   main .main__carousel {
-    width: 36rem;
+    width: 60rem;
     height: auto;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 600px;
     background-image: url(../images/background_universo.webp); }
     main .main__carousel:hover {
       border: solid 1px #ff8496;
@@ -257,18 +260,18 @@ main {
     margin-top: 20px;
     border-radius: 3px;
     border: 0.5px solid;
-    color: black;
-    background-color: whitesmoke; }
+    color: #070606;
+    background-color: #f8faff; }
     main .buy:hover {
       opacity: 1;
       transition: 1s;
-      color: white;
+      color: #f8faff;
       background-color: #ff8496;
-      border: 1px solid white; }
+      border: 1px solid #f8faff; }
   main .img1, main .img2, main .img3, main .img4, main .img5, main .img6, main .img7, main .img8, main .img9 {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #f8faff;
     background-color: #364c96;
     width: auto;
     height: auto;
@@ -326,10 +329,10 @@ main {
     transition: 2.5s; }
     main .container__banner__proximos__recitales p {
       font-size: 20px;
-      color: white;
+      color: #f8faff;
       margin-top: 5%;
       margin-left: 10%;
-      border-top: 2px solid white; }
+      border-top: 2px solid #f8faff; }
     main .container__banner__proximos__recitales:hover {
       cursor: pointer;
       opacity: 1;
@@ -365,7 +368,7 @@ ul {
     border-radius: 50px; }
 
 .nosotros__texto {
-  color: white;
+  color: #f8faff;
   width: 75%;
   padding: 5px;
   margin-top: 5px;
@@ -382,6 +385,7 @@ ul {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
+/*Tickets*/
 .container__tickets {
   width: 100%;
   height: 700px;
@@ -401,28 +405,28 @@ ul {
     flex-direction: column;
     justify-content: center;
     border-radius: 30px;
-    background-color: #18206d; }
+    background-color: #364c96; }
     .container__tickets .container__tickets__form .container__tickets__seleccione__artista {
       width: 25%; }
     .container__tickets .container__tickets__form label {
-      color: white; }
+      color: #f8faff; }
     .container__tickets .container__tickets__form .form-check {
       font-size: large;
       display: flex;
       justify-content: center;
       margin-top: 20px;
-      color: white; }
+      color: #f8faff; }
     .container__tickets .container__tickets__form .ticket__button {
       margin-left: 80%;
       margin-top: 20px;
       width: 10rem;
       border: 0.5px;
       border-radius: 3px;
-      color: white;
+      color: #f8faff;
       background-color: #851640; }
       .container__tickets .container__tickets__form .ticket__button:hover {
         transition: 1s;
-        color: white;
+        color: #f8faff;
         background-color: #ff8496; }
   .container__tickets #container__gif {
     width: 45%;
@@ -433,6 +437,7 @@ ul {
     border-radius: 60px;
     margin-top: 40px; }
 
+/*Variables*/
 /*Colores*/
 /*Funcionales*/
 /*Body*/
@@ -444,6 +449,7 @@ ul {
   /*background-image: url(../images/background_universo.webp);*/
   background-repeat: no-repeat; }
 
+/*@import*/
 .type__over__ligth {
   font-family: 'Overpass', sans-serif;
   font-weight: 300; }
@@ -461,7 +467,7 @@ h1 {
   width: auto;
   margin-top: 20px;
   text-align: center;
-  color: white; }
+  color: #f8faff; }
 
 .multimedia {
   width: 100%;
@@ -479,6 +485,7 @@ h1 {
       transition: 1s;
       box-shadow: 20px 20px 200px #4076c9; }
 
+/*@media Queries*/
 @media (min-width: 400px) and (max-width: 576px) {
   /*index.html*/
   body {
@@ -560,3 +567,67 @@ h1 {
         width: 60%; }
     body .container__mapa {
       display: none; } }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto; }
+    body header {
+      width: 100%;
+      display: flex; }
+      body header button {
+        display: none; }
+    body main {
+      width: 100%;
+      height: auto;
+      background-image: none; }
+      body main .main__h1 {
+        display: none; }
+      body main .main__carousel {
+        display: none; }
+      body main .main__grid {
+        width: 100%;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9"; }
+      body main .publicidad {
+        height: 600px; }
+      body main .container__banner {
+        display: none; }
+    body iframe {
+      margin-top: 200px;
+      width: 100%; }
+    body footer {
+      position: absolute;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      body footer .footer__navbar {
+        margin-left: 10px;
+        font-size: 20px;
+        margin-bottom: 10px; }
+      body footer .footer__redes {
+        width: 100px;
+        margin-left: 1px; }
+        body footer .footer__redes img .instragram {
+          width: 100%; }
+    body .header_logo {
+      display: none; }
+    body .header__name {
+      font-size: 5em;
+      color: #851640; }
+    body .nosotros__imagen {
+      background-image: none; }
+    body .container__tickets .container__tickets__form {
+      width: 95%; }
+      body .container__tickets .container__tickets__form .container__button .ticket__button {
+        margin-left: 4em; }
+      body .container__tickets .container__tickets__form .container__button #container__gif {
+        width: 95%; }
+    body .container__mapa {
+      display: none; } }
+
+/*@media (min-width: 769px) and (max-width: 1280px){
+
+}*/

@@ -10,17 +10,18 @@ main{
     .main__h1{
         margin-top: 20px;
         font-size: 40px;
-        color: white;
+        color: #f8faff;
         display: flex;
         flex-direction: row;
         justify-content: center;
         text-decoration:overline;
     }
     .main__carousel{
-        width: 36rem;
+        width: 60rem;
         height: auto;
+        
         margin-top: 30px;
-        margin-left: 500px;
+        margin-left: 600px;
         background-image: url(../images/background_universo.webp);
         &:hover{
             border: solid 1px #ff8496;
@@ -54,20 +55,20 @@ main{
         margin-top: 20px;
         border-radius: 3px;
         border: 0.5px solid;
-        color: black;
-        background-color: whitesmoke;
+        color: #070606;
+        background-color: #f8faff;
         &:hover{
             opacity: 1;
             transition: 1s;
-            color: white;
+            color: #f8faff;
             background-color: #ff8496;
-            border: 1px solid white;
+            border: 1px solid #f8faff;
         }
     }
     .img1 {
         display: flex;
         justify-content: center;
-        color: white;
+        color: #f8faff;
         background-color: #364c96;
         width: auto;
         height: auto;
@@ -158,10 +159,10 @@ main{
             transition: 2.5s;
             p{
                 font-size: 20px;
-                color: white;
+                color: #f8faff;
                 margin-top: 5%;
                 margin-left: 10%;
-                border-top: 2px solid white;
+                border-top: 2px solid #f8faff;
             }
             &:hover{
                 cursor: pointer;

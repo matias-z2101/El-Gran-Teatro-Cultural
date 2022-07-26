@@ -1,3 +1,4 @@
+/*@media Queries*/
 @media (min-width: 400px) and (max-width: 576px){
     /*index.html*/
     body{
@@ -118,8 +119,93 @@
     }
 }
 @media (min-width: 577px) and (max-width: 768px){
-
+    body{
+        width: 100%;
+        height: auto;
+        header{
+            width: 100%;
+            display: flex;
+            button{
+                display: none;
+            }
+        }
+        main{
+            width: 100%;
+            height: auto;
+            background-image: none;
+            .main__h1{
+                display: none;
+            }
+            .main__carousel{
+                display: none;
+            }
+            .main__grid{
+                width: 100%;
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas: 
+                "img1 img2 img3"
+                "img4 img5 img6"
+                "img7 img8 img9";
+            }
+            .publicidad{
+                height: 600px;
+            }
+            .container__banner{
+                    display: none;
+            }
+        }
+        iframe{
+            margin-top: 200px;
+            width: 100%;
+        }
+        footer{
+            position: absolute;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .footer__navbar{
+                margin-left: 10px;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .footer__redes{
+                width: 100px;
+                margin-left: 1px;
+                img .instragram{
+                    width: 100%;
+                }
+            }
+        }
+        .header_logo{
+            display: none;
+        }
+        .header__name{
+            font-size: 5em;
+            color: #851640;
+        }
+        .nosotros__imagen{
+            background-image: none;
+        }
+        .container__tickets{
+            .container__tickets__form{
+                width: 95%;
+                .container__button{
+                    .ticket__button{
+                        margin-left: 4em;
+                    }
+                    #container__gif{
+                        width: 95%;
+                }
+                }
+            }
+        }
+        .container__mapa{
+            display: none;
+        }
+    }
 }
-@media (min-width: 769px) and (max-width: 1200px){
+/*@media (min-width: 769px) and (max-width: 1280px){
 
-}
+}*/

@@ -3,7 +3,7 @@ h1{
     width: auto;
     margin-top: 20px;
     text-align: center;
-    color: white;
+    color: #f8faff;
 }
 .multimedia{
     width: 100%;
@@ -19,7 +19,7 @@ h1{
         &:hover{
             opacity: 0.3;
             transition: 1s;
-            box-shadow: 20px 20px 200px rgb(64, 118, 201);
+            box-shadow: 20px 20px 200px #4076c9;
         }
     }
 }

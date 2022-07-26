@@ -15,18 +15,18 @@
             height: 25px;
             border: 0.5px solid #ff8496;
             &:hover{
-                color: white;
+                color: #f8faff;
                 border: 0.5px solid #ff8496;
                 transition: 1s;
             }
         }
         .submit{
-            color: white;
-            background-color: rgb(133, 22, 64);
+            color: #f8faff;
+            background-color: #851640;
         }
         .submit:hover{
             transition: 2s;
-            color: white;
+            color: #f8faff;
             background-color: #ff8496;
         }
     }

@@ -4,7 +4,7 @@ header{
     height: auto;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
+    background: linear-gradient(90deg, #364c96 35%, #e9e6e6 49%, #7d418b 83%);
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 12s;
@@ -41,9 +41,9 @@ header{
         margin-left: 1462px;
         &:hover{
             transition: 1s;
-            color: white;
+            color: #f8faff;
             background-color: #ff8496;
-            border: 1px solid white;
+            border: 1px solid #f8faff;
         }
     }
     .header__container__name__navbar{
@@ -64,7 +64,7 @@ header{
         }
         nav{
             font-size: large;
-            background: linear-gradient(90deg, #364c96 35%, white 49%, #7d418b 83%);
+            background: linear-gradient(90deg, #364c96 35%, #e9e6e6 49%, #7d418b 83%);
             animation-name: animacion;
             animation-iteration-count: infinite;
             animation-duration: 12s;
@@ -81,13 +81,13 @@ header{
                     background-color: #f8faff;
                     &:hover{
                         background-color: #ff8496;
-                        border: solid 1px white;
+                        border: solid 1px #f8faff;
                     }
                 }
                 .access{
-                    color: green;
+                    color: #008000;
                     font-size: smaller;
-                    border-bottom: 0.5px solid green;
+                    border-bottom: 0.5px solid #008000;
                 }
                 ul .dropdown-menu{
                     :nth-child(1){
@@ -96,7 +96,7 @@ header{
                     }
                     :nth-child(5){
                         width: 65px;
-                        border-bottom: 0.5px solid black;
+                        border-bottom: 0.5px solid #070606;
                         margin-left: 10px;
                     }
                 }
